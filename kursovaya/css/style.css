@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Play&family=Ruslan+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Ruslan+Display&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Andika';
+  font-size: 24px;
+  background: linear-gradient(#fff, #E1E1E1);
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.container {
+  margin: 0 auto;
+}
+/*шапка*/
+.header{
+  background-color: #FFCA05;
+  padding: 20px 40px;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons{
+  width: 43%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation{
+  min-width: 30%;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navi {
+  min-width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a.menu-link {
+  text-decoration: none;
+}
+/*контент*/
+.content {
+  background-color: #fff;
+  max-width: 90%;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 30px;
+}
+.input{
+  border: #FFCA05 5px solid;
+  display: block;
+  border-radius: 50px;
+  margin: 0 auto;
+  padding: 10px 10px 10px 61px;
+  max-height: 50px;
+  font-size: 14px;
+  -moz-placeholder: #A79142;
+  color: #A79142;
+  background-position: top 2px left 10px;
+  background-repeat: no-repeat;
+}
+.searching {
+  background-image: url('../img/search.svg');
+  width: 90%;
+}
+.categories{
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.category {
+  max-width: 115px;
+}
+.cated-link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.categ-text {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+.title {
+  margin: 0;
+  font-size: 32px;
+}
+/*карточки товара*/
+.products {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.product {
+  max-width: 24%;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 40px;
+}
+.product-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.cost {
+  margin: 0;
+  font-size: 36px;
+}
+.stars {
+  display: flex;
+}
+.product-name {
+  margin: 0;
+  font-size: 20px;
+}
+/*подвал*/
+.footer{
+  background-color: #EC1C24;
+  margin: 0;
+  padding: 20px 50px;
+  color: white;
+}
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 30px;
+}
+.block {
+  flex-wrap: wrap;
+  max-width: 22%;
+}
+.soc-block {
+  max-width: 10%;
+}
+.footer-text {
+  margin: 0;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.buttons {
+  display: block;
+}
+.btn{
+  text-decoration: none;
+  background-color: #EC801C;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 24px;
+  border: none;
+}
+.foot-title {
+  font-family: Ruslan Display;
+  text-align: center;
+  margin: 0;
+}
+/*формы анкеты*/
+.form {
+  margin: 150px auto;
+  padding: 30px;
+  border: 5px #FFCA05 solid;
+  border-radius: 40px;
+  max-width: 60%;
+  background-color: white;
+}
+.form-title {
+  font-family: Ruslan Display;
+  color: #EC801C;
+  text-align: center;
+  margin: 0;
+}
+.form-input {
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px 15px 15px 80px;
+  background-position: top 7px left 12px;
+  border: 3px #FFCA05 solid;
+}
+.login {
+  background-image: url('../img/анкеты/логин.svg');
+}
+.pass {
+  background-image: url('../img/анкеты/пароль.svg');
+}
+.name {
+  background-image: url('../img/анкеты/человек.svg');
+}
+.phone {
+  background-image: url('../img/анкеты/телефон.svg');
+}
+.submit {
+  width: 30%;
+  box-shadow: 7px 7px 0px #B96313;
+  margin: 30px auto;
+  display: block;
+}
+.form-links {
+  max-width: 30%;
+  margin-top: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.form-link {
+  color:  #EC1C24;
+}
+/*кабинет*/
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.cab-img {
+  max-width: 300px;
+  max-height:300px;
+  border-radius: 50%;
+}
+.back-link {
+  margin: 0;
+  color:#FFCA05;
+}
+.nick-name {
+  margin: 0;
+  font-size: 48px;
+}
+.full-name {
+  display: flex;
+  justify-content: space-between;
+  min-width: 400px;
+}
+.person-info {
+  margin: 0;
+}
+.cab-title {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.full-name, .numb, .email {
+  margin-top: 30px;
+}
+.client-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  margin-top:50px;
+}
+.client-button {
+  font-family: Andika;
+  font-size: 24px;
+  padding: 10px 50px;
+  background-color: white;
+  border: #E1E1E1 solid 3px;
+  border-radius: 50px;
+}
+/*страница товара*/
+.prod, .stars-cost, .charact, .country, .btns {
+  display: flex;
+  justify-content: space-between;
+}
+.prod-info {
+  width: 60%;
+  min-height: 500px;
+}
+.prod-img {
+  max-width: 450px;
+  max-height: 450px;
+  border-radius: 40px;
+}
+.prod-title {
+  margin: 0;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.star {
+  width: 36px;
+  margin: 0 5px;
+}
+.star-text, .prod-cost {
+ margin: 0;
+ font-size: 32px;
+}
+.char {
+  margin: 30px 0;
+  color: #FFCA05;
+  text-decoration: dashed;
+}
+.countr {
+  margin: 0;
+  margin-bottom: 30px;
+}
+.review-block {
+ margin-top: 30px;
+ width: 100%;
+}
+.review {
+  margin-top: 30px;
+  border:#E1E1E1 solid 3px;
+  border-radius: 40px;
+  padding: 30px;
+  display: flex;
+}
+.review-ava {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 100%;
+  margin-right: 50px;
+}
+.review-head {
+  display: flex;
+  justify-content: space-between;
+}
+.nickname {
+  margin: 0;
+  font-size: 32px;
+  margin-right: 50px;
+}
+.theme {
+  margin: 0;
+  font-size: 32px;
+  margin-left: 50px;
+}

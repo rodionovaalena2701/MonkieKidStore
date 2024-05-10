@@ -1,0 +1,505 @@
+@media (max-width: 1300px) {
+.header-logo {
+  width: 90%;
+}
+a.menu-link {
+  margin-left: 20px;
+}
+.categories {
+  width: 95%;
+}
+.categ-icon {
+  max-width: 105px;
+}
+.product-img {
+  max-width: 230px;
+  max-height: 230px;
+}
+.form-link {
+  font-size: 20px;
+}
+}
+@media (max-width: 1100px) {
+.header-icon {
+  width: 70px;
+}
+.menu-hid {
+  width: 60%;
+}
+.categories {
+  width: 100%;
+}
+.category, .categ-icon {
+  max-width: 90px;
+}
+.categ-text {
+  font-size: 18px;
+}
+.product {
+  max-width: 30%;
+}
+.blocks {
+  flex-wrap: wrap;
+}
+.block {
+  max-width:34%;
+}
+.submit {
+  width: 70%;
+}
+.form-links {
+  max-width: 50%;
+}
+}
+@media (max-width: 960px) {
+  .menu-button {
+    width: 90%;
+  }
+    .menu-hid  {
+      width: 55%;
+    }
+  .navi {
+    width: 55%;
+  }
+  .icon {
+    width: 10%;
+  }
+  .searching {
+    width: 100%;
+  }
+  .category, .categ-icon {
+    max-width: 80px;
+  }
+  .categ-text {
+    font-size: 16px;
+  }
+  .product-img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .foot-title{
+    font-size: 36px;
+  }
+  .cab-img {
+    max-width: 250px;
+    max-height: 250px;
+  }
+  .nick-name {
+    font-size: 40px;
+    }
+  .full-name {
+    min-width: 350px;
+  }
+  .cab-title, .person-info {
+    font-size: 20px;
+  }
+  .client-button {
+    font-size: 20px;
+    padding: 10px 40px;
+  }
+  .prod-info {
+    min-height: 400px;
+  }
+  .prod-title {
+    font-size: 30px;
+  }
+  .star {
+    width: 28px;
+  }
+  .star-text, .prod-cost {
+    font-size: 28px;
+  }
+  .prod-img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+  .char, .countr {
+    font-size: 20px;
+  }
+  .review-block {
+    margin-top: 22px;
+  }
+  .nickname, .theme, .star-text {
+    font-size: 28px;
+  }
+  .review-text {
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .header-icon {
+      width: 60px;
+    }
+  .menu-button {
+      width: 100%;
+      margin-left: 15px;
+    }
+    .menu-links, a.menu-link {
+      margin: 0;
+    }
+  .navi {
+    width: 20%;
+  }
+  .menu-hid {
+    width: 0%;
+    margin: 0;
+  }
+    .icon {
+      margin: 0;
+      width: 25%;
+    }
+  .product {
+    max-width: 45%;
+  }
+  .product-img {
+    max-width: 230px;
+    max-height: 230px;
+  }
+  .category, .categ-icon {
+    max-width: 65px;
+    }
+  .categ-text {
+    font-size: 12px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .cost {
+    font-size: 30px;
+  }
+  .product-name {
+    font-size: 16px;
+  }
+  .footer-text {
+    font-size: 24px;
+  }
+  .btn {
+    font-size: 20px;
+  }
+  .form-title {
+    font-size: 42px;
+  }
+  .form-link {
+    font-size: 16px;
+  }
+  .cab-img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+   .full-name {
+    min-width: 300px;
+  }
+  .prod {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .prod-img {
+    width: 100%;
+    height: 100%;
+  }
+  .prod-info {
+    width: 100%;
+  }
+  .review-ava {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .nickname {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  .theme {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 630px) {
+  .content {
+    margin: 30px auto;
+  }
+  .header-icon {
+      width: 45px;
+    }
+  .input {
+    border: #FFCA05 3px solid;
+    padding: 5px 5px 5px 51px;
+    max-height: 50px;
+    background-size: 7%;
+  }
+  .categories {
+    margin: 30px auto;
+  }
+  .category, .categ-icon {
+    max-width: 50px;
+  }
+  .categ-text {
+    font-size: 10px;
+  }
+  .product-img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .foot-title {
+    font-size: 30px;
+  }
+  .form {
+    margin: 100px auto;
+    padding: 20px;
+    border: 3px #FFCA05 solid;
+    border-radius: 30px;
+  }
+  .form-input {
+    margin-top: 15px;
+    padding: 5px 5px 5px 40px;
+    background-position: top 7px left 12px;
+    }
+  .submit {
+    box-shadow: 2px 2px 0px #B96313;
+    margin: 15px auto;
+  }
+  .form-title {
+    font-size: 36px;
+  }
+  .form-link {
+    font-size: 12px;
+  }
+  .info {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .back-link {
+    width: 70px;
+    display: block;
+    margin: 20px auto;
+  }
+  .nick-name {
+    text-align: center;
+  }
+  .client-buttons {
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .client-link {
+    width: 100%;
+    margin-top: 30px;
+    text-decoration: none;
+  }
+  .client-button {
+    font-size: 20px;
+    display: block;
+    width: 100%;
+  }
+  .review-ava {
+    max-width: 70px;
+    max-height: 70px;
+    margin-right: 20px;
+  }
+  .nickname, .theme, .star-text {
+    font-size: 20px;
+  }
+  .review-text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 520px) {
+  .header {
+    padding: 10px 30px;
+  }
+  .header-icon {
+  width: 25px;
+  }
+  .menu-button {
+    margin-left: 0;
+  }
+  .navigation {
+    max-width: 60%;
+  }
+  .category, .categ-icon {
+    max-width: 40px;
+  }
+  .categ-text {
+    font-size: 8px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .product-img {
+    max-width: 160px;
+    max-height: 160px;
+  }
+  .cost {
+    font-size: 22px;
+  }
+  .product-name {
+    font-size: 12px;
+  }
+  .footer-text {
+    font-size: 20px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .form-title {
+    font-size: 24px;
+  }
+  .nickname {
+    margin-right: 10px;
+  }
+  .theme {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 430px) {
+  body {
+    font-size: 10px;
+  }
+.header {
+  padding: 5px 10px;
+}
+.icons {
+  width: 36%;
+}
+.header-icon, .header-logo {
+  max-height: 18px;
+  max-width: 110px;
+}
+.navi {
+  width: 5%;
+}
+.icon{
+  width: 10px;
+}
+.content {
+  margin: 20px auto;
+  padding: 10px;
+}
+.input {
+  border: #FFCA05 1px solid;
+  padding: 5px 5px 5px 16px;
+  max-height: 13px;
+  font-size: 5px;
+  background-position: top 2px left 2px;
+  background-size: 4%;
+}
+.category, .categ-icon {
+  max-width: 27px;
+}
+.categ-text {
+  font-size: 5px;
+}
+.title {
+  font-size: 10px;
+}
+.product-img {
+  max-width: 130px;
+  max-height: 130px;
+}
+.cost {
+  font-size: 14px;
+}
+.product-name {
+  font-size: 10px;
+}
+.footer-text {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.btn {
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.foot-title {
+  font-size: 15px;
+}
+.form {
+  margin: 100px auto;
+  padding: 10px;
+  border: 2px #FFCA05 solid;
+  border-radius: 20px;
+}
+.form-input {
+  margin-top: 10px;
+  padding: 5px 5px 5px 20px;
+  background-position: top 2px left 5px;
+}
+.form-title {
+  font-size: 20px;
+}
+.form-link {
+  font-size: 7px;
+}
+.cab-img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.full-name {
+  width: 200px;
+}
+.nick-name {
+  font-size: 20px;
+}
+.cab-title, .person-info {
+  font-size: 10px;
+}
+.cab-title{
+  margin-bottom: 5px;
+}
+.full-name, .numb, .email {
+  margin-top: 10px;
+}
+.client-button {
+  font-size: 15px;
+  padding: 10px;
+}
+.back-link {
+  margin: 10px auto;
+  font-size: 10px;
+  width: 30px;
+}
+.review {
+  margin-top: 10px;
+  border: #E1E1E1 solid 1px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.review-ava {
+  max-width: 33px;
+  max-height: 33px;
+  margin-right: 10px;
+}
+.nickname {
+  font-size: 10px;
+  margin-right: 10px;
+}
+.theme {
+  font-size: 10px;
+  margin-left: 10px;
+}
+.star {
+  width: 11px;
+}
+.star-text, .review-text {
+font-size: 10px;
+}
+.prod-info {
+  min-height: 100px;
+}
+.prod-img {
+  border-radius: 10px;
+}
+.prod-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.star-text, .prod-cost {
+  font-size: 10px;
+}
+.char {
+  font-size: 10px;
+}
+.countr {
+  font-size: 10px;
+}
+}

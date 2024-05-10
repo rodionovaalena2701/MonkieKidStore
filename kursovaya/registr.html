@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Регистрация</title>
+  <link rel="stylesheet" type="text/css" href="css\style.css">
+    <link rel="stylesheet" type="text/css" href="css\media.css">
+</head>
+<body>
+  <div class="container">
+    <form action="database\save_user.php" class="form" method="post">
+      <h1 class="form-title">Регистрация</h1>
+      <input name="surname" type="text" size="15" maxlength="15" class="input form-input name" placeholder="Фамилия" required>
+      <input name="name" type="text" size="15" maxlength="15" class="input form-input name" placeholder="Имя" required>
+      <input name="patronymic" type="text" size="15" maxlength="15" class="input form-input name" placeholder="Отчество">
+      <input name="phone" type="tel" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18"  class="input form-input phone" placeholder="Телефон" required>
+      <input name="login" type="text" size="15" maxlength="15" class="input form-input login" placeholder="Логин" required>
+      <input name="pass" type="password" class="input form-input pass" size="15" maxlength="15" placeholder="Пароль" required>
+      <input name="pass2" type="password" class="input form-input pass" size="15" maxlength="15" placeholder="Повторите пароль" required>
+      <input name="submit" type="submit" value="Регистрация" class="btn submit">
+      <div class="form-links">
+        <a href="index.php" class="form-link">Назад</a>
+        <a href="author.html" class="form-link">Войти</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
