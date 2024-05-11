@@ -26,3 +26,4 @@ if ($myrow['adress'] != NULL) {
   header("Location: ../orders.php?id=$user");
 } else
   print ("Нет адреса доставки. Для начала заполните его!");
+?>
